@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: sebaszam1/aws-githubactions@main
+      - uses: sebaszam1/s3-sync-action@main
         with:
           args: --delete
         env:
